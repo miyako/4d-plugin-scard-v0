@@ -56,41 +56,7 @@ status:=SCARD Get status(uuid)
 
 `IDm`と`PMm`については必ずAPDUを送受信して取得します。
 
-|value||
-|:-:|:-|
-|`0xFF`|CLA::generic|
-|`0xCA`|INS::getData|
-|`0x00`|P1::getIDm|
-|`0x00`||
-|`0x00`|LE::maxLength|
-
-|value||
-|:-:|:-|
-|`0xFF`|CLA::generic|
-|`0xCA`|INS::getData|
-|`0x01`|P1::getPMm|
-|`0x00`||
-|`0x00`|LE::maxLength|
-
 その他のサービスコードについては，指定したコードを指定したブロック数まで*read without encryption*で取得します。途中でカードを動かした場合など，不完全なデータが返される場合もあります（`0x0`が返されるかもしれません）。
-
-|value||
-|:-:|:-|
-|`0xFF`|CLA::generic|
-|`0xA4`|INS::selectFile|
-|`0x00`|P1|
-|`0x01`|P2|
-|`0x02`||
-||service Hi|
-||service Lo|
-
-|value||
-|:-:|:-|
-|`0xFF`|CLA::generic|
-|`0xB0`|INS::readBinary|
-|`0x00`||
-|`0xFF`|block|
-|`0x00`||
 
 #### macOSプラットフォーム使用上の注意
 
