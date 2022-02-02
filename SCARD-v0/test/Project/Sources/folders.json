@@ -1,0 +1,15 @@
+{
+	"カードリーダー": {
+		"methods": [
+			"execute_dialog",
+			"test_background_worker"
+		],
+		"forms": [
+			"TEST"
+		],
+		"classes": [
+			"Dialog"
+		]
+	},
+	"trash": {}
+}
