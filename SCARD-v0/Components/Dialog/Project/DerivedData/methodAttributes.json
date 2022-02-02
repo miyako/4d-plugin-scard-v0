@@ -1,0 +1,48 @@
+{
+	"methods": {
+		"DialogWorker": {
+			"timeStamp": "2022-02-01T17:45:49.502Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true
+			}
+		},
+		"execute_dialog_worker": {
+			"timeStamp": "2022-02-01T17:34:44.777Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true,
+				"preemptive": "capable"
+			}
+		},
+		"execute_method_local": {
+			"timeStamp": "2022-01-13T12:07:46.237Z",
+			"attributes": {
+				"invisible": true,
+				"preemptive": "capable"
+			}
+		},
+		"execute_method_remote": {
+			"timeStamp": "2022-01-13T12:08:38.179Z",
+			"attributes": {
+				"invisible": true,
+				"executedOnServer": true,
+				"preemptive": "capable"
+			}
+		},
+		"dialog_generic_close": {
+			"timeStamp": "2022-02-01T17:32:04.056Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"execute_task": {
+			"timeStamp": "2022-02-01T17:29:59.725Z",
+			"attributes": {
+				"invisible": true,
+				"shared": true,
+				"preemptive": "capable"
+			}
+		}
+	}
+}
