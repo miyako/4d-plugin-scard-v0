@@ -1,5 +1,5 @@
 # 4d-plugin-scard-v0
-macOS/~~Windows~~の標準APIでFeliCaを読む
+macOSの標準APIでFeliCaを読む
 
 ## SCARD Get readers
 
